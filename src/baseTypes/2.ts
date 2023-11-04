@@ -7,7 +7,8 @@ anything = "Text";
 anything = {};
 
 let num: number;
-
-num = anything;
+if (typeof anything === "number") {
+  num = anything;
+}
 
 export {};
